@@ -1,0 +1,47 @@
+{
+	"client": "./",
+	"setting": {
+		"urlCheck": false,
+		"es6": false,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"appid": "wxe52db34749bc303f",
+	"projectname": "mp-utils",
+	"libVersion": "2.2.3",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 1,
+			"list": [
+				{
+					"id": 0,
+					"name": "mp-plus",
+					"pathName": "pages/mp-plus/mp-plus",
+					"query": "test=1"
+				},
+				{
+					"id": -1,
+					"name": "mp-canvas",
+					"pathName": "pages/mp-canvas/mp-canvas",
+					"query": "test=1"
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "mp-plus",
+  "version": "1.0.0",
+  "description": "微信小程序增强工具",
+  "main": "mp-plus.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yuanwen",
+  "license": "MIT"
+}

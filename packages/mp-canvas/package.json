@@ -1,0 +1,11 @@
+{
+  "name": "mp-canvas",
+  "version": "1.0.0",
+  "description": "微信小程序canvas工具",
+  "main": "mp-canvas.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yuanwen",
+  "license": "MIT"
+}

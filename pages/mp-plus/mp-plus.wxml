@@ -1,0 +1,11 @@
+<!-- index.wxml -->
+<view>
+  <view>page</view>
+  <view>a:{{a}}</view>
+  <view>b:{{b}}</view>
+  <view>c:{{c}}</view>
+  <button bindtap="add" >add a</button>
+  <view>父页面mixins测试:{{testBehavior}}</view>
+
+  <child></child>
+</view>

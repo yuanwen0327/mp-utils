@@ -1,0 +1,7 @@
+<view>
+  <view>child</view>
+  <view>a:{{a}}</view>
+  <view>b:{{b}}</view>
+  <button bindtap="add">add a</button>
+  <view>子组件mixins测试:{{testBehavior}}</view>
+</view>

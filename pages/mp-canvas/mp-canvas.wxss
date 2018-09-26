@@ -1,0 +1,4 @@
+canvas {
+  transform: scale(.5);
+  transform-origin: 0 0;
+}

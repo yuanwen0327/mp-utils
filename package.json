@@ -1,0 +1,14 @@
+{
+  "name": "mp-utils",
+  "version": "1.0.0",
+  "description": "微信小程序工具集合",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yuanwen",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^2.8.0"
+  }
+}
