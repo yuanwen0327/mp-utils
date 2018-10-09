@@ -3,7 +3,7 @@
 var mpPlus = require('../../packages/mp-plus/mp-plus');
 var mpCanvas = require('../../packages/mp-canvas/mp-canvas')
 
-Page(mpPlus.createPage({
+mpPlus.createPage({
   data: {},
   methods: {
     renderCanvas: function () {
@@ -180,4 +180,4 @@ Page(mpPlus.createPage({
   onLoad: function (query) {
     this.renderCanvas()
   }
-}));
+});

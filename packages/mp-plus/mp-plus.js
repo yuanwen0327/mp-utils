@@ -21,14 +21,14 @@ module.exports.createPage = function (mpOptions) {
   bindWatch(mpOptions, 'page');
   expandMethods(mpOptions);
   eventQueueToMethod(mpOptions, PAGE_EVENT)
-  return mpOptions;
+  Page(mpOptions);
 };
 module.exports.createComponent = function (mpOptions) {
   eventMethodToQueue(mpOptions, COMPONENT_EVENT)
   supportMixins(mpOptions, 'component');
   bindWatch(mpOptions, 'component');
   eventQueueToMethod(mpOptions, COMPONENT_EVENT)
-  return mpOptions;
+  Component(mpOptions);
 };
 
 function eventMethodToQueue(obj, events) {

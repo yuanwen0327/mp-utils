@@ -4,7 +4,7 @@ var mpPlus = require('../../packages/mp-plus/mp-plus');
 var testMixin = require('../../mixins/test.mixin')
 var test2Mixin = require('../../mixins/test2.mixin')
 
-Page(mpPlus.createPage({
+mpPlus.createPage({
   mixins: [testMixin, test2Mixin],
   data: {
     a: 1
@@ -33,4 +33,4 @@ Page(mpPlus.createPage({
     console.log('page onload');
     console.log(this, query)
   }
-}));
+});

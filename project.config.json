@@ -9,7 +9,7 @@
 	},
 	"appid": "wxe52db34749bc303f",
 	"projectname": "mp-utils",
-	"libVersion": "2.2.3",
+	"libVersion": "2.2.1",
 	"condition": {
 		"search": {
 			"current": -1,
