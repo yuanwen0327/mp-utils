@@ -1,6 +1,6 @@
 {
   "name": "mp-canvas",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "微信小程序canvas工具",
   "main": "mp-canvas.js",
   "scripts": {
