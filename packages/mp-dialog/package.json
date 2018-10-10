@@ -1,6 +1,6 @@
 {
   "name": "mp-dialog",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "微信小程序弹窗管理",
   "main": "mp-dialog.js",
   "scripts": {
