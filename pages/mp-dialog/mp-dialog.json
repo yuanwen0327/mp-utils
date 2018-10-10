@@ -1,0 +1,6 @@
+{
+  "usingComponents":{
+    "dialog-one":"./dialog-one/dialog-one",
+    "dialog-two":"./dialog-two/dialog-two"
+  }
+}

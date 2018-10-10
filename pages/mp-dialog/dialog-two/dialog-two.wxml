@@ -1,0 +1,4 @@
+<view hidden="{{!show}}" class="dialog">
+  dialog2
+  <button bind:tap="close">关闭dialog2</button>
+</view>

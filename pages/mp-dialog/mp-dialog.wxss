@@ -1,0 +1,12 @@
+.scroll-fix {
+  height: 100%;
+  overflow: hidden;
+}
+
+page {
+  height: 100%;
+}
+
+.placeHolder {
+  height: 2000rpx;
+}

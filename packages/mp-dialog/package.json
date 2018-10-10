@@ -1,0 +1,11 @@
+{
+  "name": "mp-dialog",
+  "version": "1.0.0",
+  "description": "微信小程序弹窗管理",
+  "main": "mp-dialog.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yuanwen",
+  "license": "MIT"
+}
