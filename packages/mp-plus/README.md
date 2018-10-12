@@ -2,8 +2,6 @@
 
 微信小程序页面、组件增强方法。提供 computed，watch，mixins 等功能。
 
-## 预览
-
 ## 安装
 
 clone 项目，将`mp-plus.js`放到你的小程序项目里。使用 mp-plus 提供的 api 代替原生页面、组件注册方法。

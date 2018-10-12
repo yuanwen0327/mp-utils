@@ -5,11 +5,9 @@
 ## 原理
 打开一个弹窗时会记录当前page的`scrollTop`，并写入`scroll-fix`解决滚动穿透。当打开一个新的弹窗时会关掉其它正在显示的弹窗。关闭弹窗后会将page的`scrollTop`恢复为第一个弹窗打开时记录的值并移除`scroll-fix`。
 
-## 预览
-
 ## 安装
 
-> 本工具依赖 mp-plus，使用前请先安装[mp-plus](https://github.com/vuejs/vue-router)。
+> 本工具依赖 mp-plus，使用前请先安装[mp-plus](https://github.com/yuanwen0327/mp-utils/tree/master/packages/mp-plus)。
 
 clone 项目，将`mp-dialog.js`放到你的小程序项目里。
 
