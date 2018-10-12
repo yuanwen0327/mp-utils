@@ -9,7 +9,7 @@
 	},
 	"appid": "wxe52db34749bc303f",
 	"projectname": "mp-utils",
-	"libVersion": "2.2.3",
+	"libVersion": "2.2.1",
 	"condition": {
 		"search": {
 			"current": -1,
@@ -27,7 +27,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 1,
+			"current": 2,
 			"list": [
 				{
 					"id": 0,
@@ -39,6 +39,12 @@
 					"id": -1,
 					"name": "mp-canvas",
 					"pathName": "pages/mp-canvas/mp-canvas",
+					"query": "test=1"
+				},
+				{
+					"id": -1,
+					"name": "mp-dialog",
+					"pathName": "pages/mp-dialog/mp-dialog",
 					"query": "test=1"
 				}
 			]

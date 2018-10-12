@@ -7,8 +7,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "yuanwen",
-  "license": "MIT",
-  "devDependencies": {
-    "lerna": "^2.8.0"
-  }
+  "license": "MIT"
 }

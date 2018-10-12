@@ -1,0 +1,7 @@
+<view class="{{scrollFix?'scroll-fix':''}}">
+  拖到底部点击按钮打开弹窗
+  <view class="placeHolder"></view>
+  <button bind:tap="openOne">打开dialog1</button>
+  <dialog-one show="{{isDialogOneShow}}" bind:close="closeOne" bind:opentwo="openTwo"></dialog-one>
+  <dialog-two show="{{isDialogTwoShow}}" bind:close="closeTwo"></dialog-two>
+</view>

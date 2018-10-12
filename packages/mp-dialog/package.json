@@ -1,8 +1,8 @@
 {
-  "name": "mp-canvas",
+  "name": "mp-dialog",
   "version": "1.0.2",
-  "description": "微信小程序canvas工具",
-  "main": "mp-canvas.js",
+  "description": "微信小程序弹窗管理",
+  "main": "mp-dialog.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

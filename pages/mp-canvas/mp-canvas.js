@@ -3,7 +3,7 @@
 var mpPlus = require('../../packages/mp-plus/mp-plus');
 var mpCanvas = require('../../packages/mp-canvas/mp-canvas')
 
-Page(mpPlus.createPage({
+mpPlus.createPage({
   data: {},
   methods: {
     renderCanvas: function () {
@@ -100,7 +100,7 @@ Page(mpPlus.createPage({
           y: 388,
           width: 110,
           height: 40,
-          borderRadios: 4,
+          borderRadius: 4,
           borderColor: '#F21A21',
           borderWidth: 2
         }
@@ -139,7 +139,7 @@ Page(mpPlus.createPage({
               y: 532,
               width: 38,
               height: 16,
-              borderRadios: 8,
+              borderRadius: 8,
               backgroundColor: '#F21A21'
             }
           )
@@ -180,4 +180,4 @@ Page(mpPlus.createPage({
   onLoad: function (query) {
     this.renderCanvas()
   }
-}));
+});

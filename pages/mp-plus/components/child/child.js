@@ -1,6 +1,6 @@
 var mpPlus = require('../../../../packages/mp-plus/mp-plus');
 var testMixin = require('../../../../mixins/test.mixin')
-Component(mpPlus.createComponent({
+mpPlus.createComponent({
   mixins: [testMixin],
   data: {
     a: 1
@@ -26,4 +26,4 @@ Component(mpPlus.createComponent({
     console.log('child attached')
     console.log(this)
   }
-}));
+});

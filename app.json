@@ -1,8 +1,8 @@
 {
   "pages": [
-    "pages/index/index",
     "pages/mp-plus/mp-plus",
-    "pages/mp-canvas/mp-canvas"
+    "pages/mp-canvas/mp-canvas",
+    "pages/mp-dialog/mp-dialog"
   ],
   "window": {
     "backgroundTextStyle": "light",

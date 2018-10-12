@@ -12,7 +12,7 @@ module.exports.drawTextarea = function (ctx, text, opts) {
     x: 0,
     y: 0,
     fontSize: 20,
-    lineHeight: 28,
+    lineHeight: 20,
     fontWeight: 'normal',
     column: false,
     maxWidth: false, // false为不做限制
@@ -92,7 +92,7 @@ module.exports.drawRoundRect = function (ctx, opts) {
     y: 0,
     width: 0,
     height: 0,
-    borderRadios: 4,
+    borderRadius: 4,
     borderWidth: 0,
     borderColor: '#333333',
     backgroundColor: '#fff'
@@ -102,13 +102,13 @@ module.exports.drawRoundRect = function (ctx, opts) {
   ctx.setLineWidth(options.borderWidth);
   ctx.setStrokeStyle(options.borderColor);
   ctx.setFillStyle(options.backgroundColor);
-  ctx.arc(options.x + options.borderRadios, options.y + options.borderRadios, options.borderRadios, Math.PI, Math.PI * 3 / 2);
-  ctx.lineTo(options.width - options.borderRadios + options.x, options.y);
-  ctx.arc(options.width - options.borderRadios + options.x, options.borderRadios + options.y, options.borderRadios, Math.PI * 3 / 2, Math.PI * 2);
-  ctx.lineTo(options.width + options.x, options.height + options.y - options.borderRadios);
-  ctx.arc(options.width - options.borderRadios + options.x, options.height - options.borderRadios + options.y, options.borderRadios, 0, Math.PI * 1 / 2);
-  ctx.lineTo(options.borderRadios + options.x, options.height + options.y);
-  ctx.arc(options.borderRadios + options.x, options.height - options.borderRadios + options.y, options.borderRadios, Math.PI * 1 / 2, Math.PI);
+  ctx.arc(options.x + options.borderRadius, options.y + options.borderRadius, options.borderRadius, Math.PI, Math.PI * 3 / 2);
+  ctx.lineTo(options.width - options.borderRadius + options.x, options.y);
+  ctx.arc(options.width - options.borderRadius + options.x, options.borderRadius + options.y, options.borderRadius, Math.PI * 3 / 2, Math.PI * 2);
+  ctx.lineTo(options.width + options.x, options.height + options.y - options.borderRadius);
+  ctx.arc(options.width - options.borderRadius + options.x, options.height - options.borderRadius + options.y, options.borderRadius, 0, Math.PI * 1 / 2);
+  ctx.lineTo(options.borderRadius + options.x, options.height + options.y);
+  ctx.arc(options.borderRadius + options.x, options.height - options.borderRadius + options.y, options.borderRadius, Math.PI * 1 / 2, Math.PI);
   ctx.closePath();
   if (options.borderWidth) {
     ctx.stroke();

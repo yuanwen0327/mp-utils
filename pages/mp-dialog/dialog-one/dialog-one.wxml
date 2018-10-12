@@ -1,0 +1,5 @@
+<view hidden="{{!show}}" class="dialog">
+  dialog1
+  <button bind:tap="close">关闭dialog1</button>
+  <button bind:tap="openTwo">打开dialog2</button>
+</view>
